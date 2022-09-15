@@ -30,8 +30,11 @@ namespace Calculator
 			this.InitializeComponent();
 		}
 
+
+		// Page Navigation
 		private void mathButton_Click(object sender, RoutedEventArgs e)
 		{
+			// Math Calculator
 			this.Frame.Navigate(typeof(MainPage));
 		}
 
@@ -42,11 +45,13 @@ namespace Calculator
 
 		private void currencyButton_Click(object sender, RoutedEventArgs e)
 		{
+			// Currency Conversion Calculator
 			this.Frame.Navigate(typeof(CurrencyConversionCalculator));
 		}
 
 		private void mortgageButton_Click(object sender, RoutedEventArgs e)
 		{
+			// Mortgage Calculator
 			this.Frame.Navigate(typeof(MortgageCalc));
 		}
 	}
