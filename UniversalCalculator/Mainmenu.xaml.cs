@@ -54,5 +54,13 @@ namespace Calculator
 			// Mortgage Calculator
 			this.Frame.Navigate(typeof(MortgageCalc));
 		}
+
+		private async void tripButton_Click(object sender, RoutedEventArgs e)
+		{
+			// Trip Calculator
+			var dialogMessage = new MessageDialog("Trip calculator C# code will be developed later");
+			await dialogMessage.ShowAsync();
+			return;
+		}
 	}
 }
