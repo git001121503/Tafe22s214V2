@@ -25,7 +25,7 @@
                 <Button x:Name="mortgageButton" VerticalAlignment="Center" HorizontalAlignment="Center"
 					Content="Mortgage Calculator" Height="100" Width="350" Foreground="Black" 
 					Background="LightGray" BorderThickness="0.5" BorderBrush="Black" FontSize="30"
-						FontWeight="Bold" Padding="10" Margin="10" Click="mortgageButton_Click"/>
+						FontWeight="Bold" Padding="10" Margin="10"/>
 
                 <Button x:Name="currencyButton" VerticalAlignment="Center" HorizontalAlignment="Center"
 					Content="Currency Converter" Height="100" Width="350" Foreground="Black" 
